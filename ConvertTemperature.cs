@@ -1,9 +1,12 @@
-﻿class Temperature
+﻿namespace MyFirstProgram
 {
-    static FahrenheitToCelsius(var temperatureFahrenheit)
+    class Temperature
     {
-        var temperatureCelsius = (temperatureFahrenheit - 32) / 1.8;
-        return temperatureCelsius;
+        static float FahrenheitToCelsius(float temperatureFahrenheit)
+        {
+            float temperatureCelsius = (temperatureFahrenheit - 32) / 1.8f
+            return temperatureCelsius;
 
+        }
     }
 }
